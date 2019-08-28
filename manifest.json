@@ -1,0 +1,860 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Development/tigerspike-landmark/Tigerspike-Landmark.Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "lY3kJvnpO4XsJM/PhmRrXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "8mz/xIrWt1e58IPGRV1f3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "4jYG+eSXXiQ+Nzsa+h+y9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Controllers.AbstractApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Controllers.AbstractApiController.html",
+          "hash": "pEyaWYwJZmREs/g6zAltRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Controllers.MapController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Controllers.MapController.html",
+          "hash": "wllicyBxU0t/0snwIEEx7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Controllers.UserController.html",
+          "hash": "Z5a0X3PSsJAOVZ0FjQTWvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Controllers.html",
+          "hash": "kZYKDpUkFvIqvivyCihgvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.CompatibilityLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.CompatibilityLevel.html",
+          "hash": "tWjGfhwxM5x+qlQwI1e0WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.CompatibilityLevelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.CompatibilityLevelExtensions.html",
+          "hash": "BJDdiUVmrg7Whpt1BprUHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.CoreAFConfigModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.CoreAFConfigModule.html",
+          "hash": "z0AqEFUrID2Fpz8ChfsE6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.GlobalConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.GlobalConfiguration.html",
+          "hash": "zKFcXsQOzuBsH0k+G+KaGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.IGlobalConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.IGlobalConfiguration.html",
+          "hash": "KNwR4MSh+HeNcsx3sbCuBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Config.html",
+          "hash": "cpOaSOPvuNU/Gr1IYWQ53w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Data.DataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Data.DataExtensions.html",
+          "hash": "1bgHSOIvShzatBp7S8BYOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Data.html",
+          "hash": "OSwNiCppyyeEvL/Thlhr6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Mapping.CoreMappingProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Mapping.CoreMappingProfile.html",
+          "hash": "61q216Wco6v27RviQowWZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Mapping.html",
+          "hash": "cUpwFDe5ipMNwd/Rw+/5zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Services.AccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Services.AccountService.html",
+          "hash": "t3zZhSs6EhIZZD+0mL7WsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Services.IAccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Services.IAccountService.html",
+          "hash": "fEw2/VObS9TtZbpeociwvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Services.IMapService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Services.IMapService.html",
+          "hash": "/hSmoTDrLqEaOzJIG7Ky8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Services.MapService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Services.MapService.html",
+          "hash": "TWDP4n86GdaUMTUfJuTjpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Services.html",
+          "hash": "XYZ0FXx1kjDsZatSQuYMvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ApiRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ApiRequest.html",
+          "hash": "9aKiJYC+LOM8leEQ/0n+4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ApiResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ApiResponse-1.html",
+          "hash": "P9BQxAvBirrlwNMHSODXUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.IApiRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.IApiRequest.html",
+          "hash": "MsJtstCp84tNnO16vIPfuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.IApiResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.IApiResponse-1.html",
+          "hash": "oYMcL7K+dALThJHO4TCJtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapMarkerRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapMarkerRequestViewModel.html",
+          "hash": "l2xFebLGwDl5cll0zioavA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapMarkerResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapMarkerResponseViewModel.html",
+          "hash": "xNNXubRcP/4XOfQMiwlTAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapNoteRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapNoteRequestViewModel.html",
+          "hash": "/y91EFueg9GByAiDWYZBOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapNoteResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.AddMapNoteResponseViewModel.html",
+          "hash": "2E2tRLvqdBbJmO7OgkUJEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.GetMapNotesByCoordinatesRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.GetMapNotesByCoordinatesRequestViewModel.html",
+          "hash": "M6s1PEMmsPeD5onMsvURlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.GetMapNotesByMarkerIdRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.GetMapNotesByMarkerIdRequestViewModel.html",
+          "hash": "y2+7uhXhBaev8lwinZgiFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.GetUserRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.GetUserRequestViewModel.html",
+          "hash": "5mKgnsfHbzx4fiY0TrM4fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.LoginUserRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.LoginUserRequestViewModel.html",
+          "hash": "dsQ9LIrOy6SMqB6tJ9tC9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.MapMarkerResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.MapMarkerResponseViewModel.html",
+          "hash": "eI+Wvk5GMxaF7Wi6YSRc1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.MapNotesResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.MapNotesResponseViewModel.html",
+          "hash": "zljeC863XxzaSIQ6w6/eeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.SearchRequestViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.SearchRequestViewModel.html",
+          "hash": "h30wUVEalo+KEV9QAUci2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.SearchResultResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.SearchResultResponseViewModel.html",
+          "hash": "dBaL6ttDO91pLAiM1HTKGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.UserResponseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.UserResponseViewModel.html",
+          "hash": "aZQCVBzjRs2wsCOk2fe1qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.ViewModels.html",
+          "hash": "z4gfIBFoZf8gqkB+sk9jMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Core.Web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Core.Web.html",
+          "hash": "1qscnHB48txybQbm/cw2Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Config.DataAFConfigModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Config.DataAFConfigModule.html",
+          "hash": "WcLabgSjae1w2+2TaQbu0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Config.html",
+          "hash": "ZhJPyL2kQNT+ku16U6yqbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Domain.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Domain.IEntity.html",
+          "hash": "3biHiO07fKq6axebVGwvdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Domain.MapMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Domain.MapMarker.html",
+          "hash": "yxChtFKj+7uJNniVM+nNRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Domain.MapNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Domain.MapNote.html",
+          "hash": "CouiDBTRJ8Af4kP5IKHcjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Domain.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Domain.User.html",
+          "hash": "y0l2vXypMmM8kFs8VrUS9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Domain.html",
+          "hash": "KeCFEtrAPunpU9Q8t5NM7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.AbstractRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.AbstractRepository-1.html",
+          "hash": "rRcLk+pcCj0bvceS4cxGUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.IDbConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.IDbConfiguration.html",
+          "hash": "zzQyskgh76k3QCgxl1MCgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.IGenericRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.IGenericRepository-1.html",
+          "hash": "sl3Tb0WORutlbFycT7Gasg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.IMapMarkerRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.IMapMarkerRepository.html",
+          "hash": "b28BioGD8MRWCnT7dDTv6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.IMapNoteRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.IMapNoteRepository.html",
+          "hash": "eo8vbAGYj+yO6VmA6W9sTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.IUserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.IUserRepository.html",
+          "hash": "ffe3JcOPDPLO6OInmeubbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.MapMarkerRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.MapMarkerRepository.html",
+          "hash": "QIoXIyaodX6x70+hAYd8ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.MapNoteRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.MapNoteRepository.html",
+          "hash": "+r6xHpSQy1RQwa8SSrgfgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.UserRepository.html",
+          "hash": "Bw7ewHYxghE21FNCzidiVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Data.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Data.Repository.html",
+          "hash": "qzwRUk4zZl9+QHYDKke3xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Pages.ErrorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Pages.ErrorModel.html",
+          "hash": "fymIWRTzSoazvjsZ0v/ktA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Pages.html",
+          "hash": "raiPfw16bT8LSNGAN3b8kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Program.html",
+          "hash": "2nvgrecjzBW/hOy1H9bUrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Startup.DbConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Startup.DbConfiguration.html",
+          "hash": "Gcy9C0u95kdKeTCJiyv/Xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.Startup.html",
+          "hash": "CpbcPTnq0sVxLSIyJVNR3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Tigerspike_Landmark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tigerspike_Landmark.html",
+          "hash": "XeVrUM+zPwVlslNJs5xSuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "wMgEXiqhS9be3DGuUcxAJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "CTRBtwqjkNOufjixN6uYcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 61,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

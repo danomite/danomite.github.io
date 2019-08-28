@@ -1,0 +1,855 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AbstractRepository&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AbstractRepository&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1">
+  
+  
+  <h1 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1" class="text-break">Class AbstractRepository&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Abstract implementation of IGenericRepository which contains most of the code</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AbstractRepository&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="Tigerspike_Landmark.Core.Services.AccountService.html">AccountService</a></div>
+      <div class="level2"><a class="xref" href="Tigerspike_Landmark.Core.Services.MapService.html">MapService</a></div>
+      <div class="level2"><a class="xref" href="Tigerspike_Landmark.Data.Repository.MapMarkerRepository.html">MapMarkerRepository</a></div>
+      <div class="level2"><a class="xref" href="Tigerspike_Landmark.Data.Repository.MapNoteRepository.html">MapNoteRepository</a></div>
+      <div class="level2"><a class="xref" href="Tigerspike_Landmark.Data.Repository.UserRepository.html">UserRepository</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Tigerspike_Landmark.Data.Repository.IGenericRepository-1.html">IGenericRepository</a>&lt;T&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Tigerspike_Landmark.Data.Repository.html">Tigerspike_Landmark.Data.Repository</a></h6>
+  <h6><strong>Assembly</strong>: Tigerspike-Landmark.Data.dll</h6>
+  <h5 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AbstractRepository&lt;T&gt; : IGenericRepository&lt;T&gt; where T : class, IEntity</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1__ctor_Tigerspike_Landmark_Data_Repository_IDbConfiguration_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.%23ctor(Tigerspike_Landmark.Data.Repository.IDbConfiguration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L30">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1__ctor_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.#ctor*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1__ctor_Tigerspike_Landmark_Data_Repository_IDbConfiguration_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.#ctor(Tigerspike_Landmark.Data.Repository.IDbConfiguration)">AbstractRepository(IDbConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Tigerspike_Landmark.Data.Repository.AbstractRepository-1.html">AbstractRepository&lt;T&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbstractRepository(IDbConfiguration dbConfig)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tigerspike_Landmark.Data.Repository.IDbConfiguration.html">IDbConfiguration</a></td>
+        <td><span class="parametername">dbConfig</span></td>
+        <td><p>The database configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1__dbConfig.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601._dbConfig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L22">View Source</a>
+  </span>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1__dbConfig" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1._dbConfig">_dbConfig</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDbConfiguration _dbConfig</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tigerspike_Landmark.Data.Repository.IDbConfiguration.html">IDbConfiguration</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Create__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.Create(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L96">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Create_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Create*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Create__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Create(`0)">Create(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long Create(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_CreateAsync__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.CreateAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L170">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_CreateAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.CreateAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_CreateAsync__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.CreateAsync(`0)">CreateAsync(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;long&gt; CreateAsync(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Delete__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.Delete(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L108">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Delete_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Delete*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Delete__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Delete(`0)">Delete(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool Delete(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_DeleteAsync__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.DeleteAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L198">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_DeleteAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.DeleteAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_DeleteAsync__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.DeleteAsync(`0)">DeleteAsync(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; DeleteAsync(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L120">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Get_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Get*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Get_System_Int32_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Get(System.Int32)">Get(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual T Get(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAll.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.GetAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L129">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAll_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAll*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAll" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAll">GetAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual List&lt;T&gt; GetAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAllAsync.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.GetAllAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L159">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAllAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAllAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAllAsync" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAllAsync">GetAllAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;List&lt;T&gt;&gt; GetAllAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.GetAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L150">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetAsync_System_Int32_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetAsync(System.Int32)">GetAsync(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;T&gt; GetAsync(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetConnection.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.GetConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L41">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetConnection_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetConnection*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_GetConnection" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.GetConnection">GetConnection()</h4>
+  <div class="markdown level1 summary"><p>Gets the connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDbConnection GetConnection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><p>An object of type IDbConnection which represents the live connection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQuery__1_System_Func_System_Data_IDbConnection___0__.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.RunQuery%60%601(System.Func%7BSystem.Data.IDbConnection%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L51">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQuery_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.RunQuery*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQuery__1_System_Func_System_Data_IDbConnection___0__" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.RunQuery``1(System.Func{System.Data.IDbConnection,``0})">RunQuery&lt;TEntity&gt;(Func&lt;IDbConnection, TEntity&gt;)</h4>
+  <div class="markdown level1 summary"><p>A query wrapper so we don&apos;t keep repeating ourselves</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual TEntity RunQuery&lt;TEntity&gt;(Func&lt;IDbConnection, TEntity&gt; queryFunc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Data.IDbConnection</span>, TEntity&gt;</td>
+        <td><span class="parametername">queryFunc</span></td>
+        <td><p>The query function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>An object of type T</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQueryAsync__1_System_Func_System_Data_IDbConnection_System_Threading_Tasks_Task___0___.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.RunQueryAsync%60%601(System.Func%7BSystem.Data.IDbConnection%2CSystem.Threading.Tasks.Task%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L75">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQueryAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.RunQueryAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_RunQueryAsync__1_System_Func_System_Data_IDbConnection_System_Threading_Tasks_Task___0___" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.RunQueryAsync``1(System.Func{System.Data.IDbConnection,System.Threading.Tasks.Task{``0}})">RunQueryAsync&lt;TEntity&gt;(Func&lt;IDbConnection, Task&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>An async query wrapper so we don&apos;t keep repeating ourselves</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;TEntity&gt; RunQueryAsync&lt;TEntity&gt;(Func&lt;IDbConnection, Task&lt;TEntity&gt;&gt; queryFunc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Data.IDbConnection</span>, <span class="xref">System.Threading.Tasks.Task</span>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">queryFunc</span></td>
+        <td><p>The query function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TEntity&gt;</td>
+        <td><p>An object of type T wrapped within a Tasl</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Update__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.Update(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L138">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Update_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Update*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_Update__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.Update(`0)">Update(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool Update(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1_UpdateAsync__0_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601.UpdateAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L184">View Source</a>
+  </span>
+  <a id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_UpdateAsync_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.UpdateAsync*"></a>
+  <h4 id="Tigerspike_Landmark_Data_Repository_AbstractRepository_1_UpdateAsync__0_" data-uid="Tigerspike_Landmark.Data.Repository.AbstractRepository`1.UpdateAsync(`0)">UpdateAsync(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; UpdateAsync(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Tigerspike_Landmark.Data.Repository.IGenericRepository-1.html">IGenericRepository&lt;T&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Tigerspike_Landmark.Data.Repository.IGenericRepository-1.html">IGenericRepository</a>&lt;T&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Data_Repository_AbstractRepository_1.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Data.Repository.AbstractRepository%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Data/Repository/AbstractRepository.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
