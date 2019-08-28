@@ -118,11 +118,12 @@
     <a href="https://github.com/danomite/tigerspike-landmark/new/master/apiSpec/new?filename=Tigerspike_Landmark_Core_Config_CompatibilityLevelExtensions_SetDataCompatibilityLevel_Tigerspike_Landmark_Core_Config_IGlobalConfiguration_Tigerspike_Landmark_Core_Config_CompatibilityLevel_.md&amp;value=---%0Auid%3A%20Tigerspike_Landmark.Core.Config.CompatibilityLevelExtensions.SetDataCompatibilityLevel(Tigerspike_Landmark.Core.Config.IGlobalConfiguration%2CTigerspike_Landmark.Core.Config.CompatibilityLevel)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Core/Config/GlobalConfiguration.cs/#L57">View Source</a>
+    <a href="https://github.com/danomite/tigerspike-landmark/blob/master/Tigerspike-Landmark.Core/Config/GlobalConfiguration.cs/#L65">View Source</a>
   </span>
   <a id="Tigerspike_Landmark_Core_Config_CompatibilityLevelExtensions_SetDataCompatibilityLevel_" data-uid="Tigerspike_Landmark.Core.Config.CompatibilityLevelExtensions.SetDataCompatibilityLevel*"></a>
   <h4 id="Tigerspike_Landmark_Core_Config_CompatibilityLevelExtensions_SetDataCompatibilityLevel_Tigerspike_Landmark_Core_Config_IGlobalConfiguration_Tigerspike_Landmark_Core_Config_CompatibilityLevel_" data-uid="Tigerspike_Landmark.Core.Config.CompatibilityLevelExtensions.SetDataCompatibilityLevel(Tigerspike_Landmark.Core.Config.IGlobalConfiguration,Tigerspike_Landmark.Core.Config.CompatibilityLevel)">SetDataCompatibilityLevel(IGlobalConfiguration, CompatibilityLevel)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the data compatibility level.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -141,12 +142,14 @@
       <tr>
         <td><a class="xref" href="Tigerspike_Landmark.Core.Config.IGlobalConfiguration.html">IGlobalConfiguration</a></td>
         <td><span class="parametername">configuration</span></td>
-        <td></td>
+        <td><p>The configuration.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Tigerspike_Landmark.Core.Config.CompatibilityLevel.html">CompatibilityLevel</a></td>
         <td><span class="parametername">compatibilityLevel</span></td>
-        <td></td>
+        <td><p>The compatibility level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -162,6 +165,27 @@
       <tr>
         <td><a class="xref" href="Tigerspike_Landmark.Core.Config.IGlobalConfiguration.html">IGlobalConfiguration</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>configuration</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ComponentModel.InvalidEnumArgumentException</span></td>
+        <td><p>compatibilityLevel</p>
+</td>
       </tr>
     </tbody>
   </table>
